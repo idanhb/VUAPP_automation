@@ -16,10 +16,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-//import testCases.WebDriverWait;
 import utilities.Base;
 import utilities.CommonOps;
 import static utilities.CommonOps.logger;
+
 public class Live_Image extends Base
 {
 	//static Logger LOGGER=Logger.getLogger(Live_Image.class.getName());
@@ -33,22 +33,27 @@ public class Live_Image extends Base
 	@FindBy (how=How.ID , using="drawerItem_img_PatientInformation")
 	public WebElement patientInformationButton;
 	
+	@FindBy (how=How.ID , using="drawerItem_img_Settings")
+	public WebElement settingsButton;
 	
 	@FindBy (how=How.ID , using="next_reposition_in_blue_bar_text")
 	public WebElement nextRepositionText;
 	
-	public void enterToPatientDetails()
+	public void enterToSideMenu()
 	{
 		try
 		{
-			logger.info("start enterToPatientDetails");
-			System.out.println("enterPatientDetails");
+			logger.info("start enterToSideMenu");
 			logger.info("Thread Sleep of 20 sec");
 			Thread.sleep(20000);
-			comOpsLI.clickButton(sideMenuButton);
+			pressButton(sideMenuButton);
+			//comOpsLI.clickButton(sideMenuButton);
 			System.out.println("after click side menu");			
-			comOpsLI.clickButton(patientInformationButton);
-			System.out.println("after click patient information");
+			
+			
+			
+			//comOpsLI.clickButton(patientInformationButton);
+			//System.out.println("after click patient information");
 			//comOpsLI.clickButton(LW.editPatienInformationButton);
 			//change to different patient every login (a loop)
 		}

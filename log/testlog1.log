@@ -883,3 +883,512 @@ Session ID: 0f91ad8e-016f-47b5-ae77-77255703d6fb
 2018-05-21 19:48:41,988 [main] INFO utilities.CommonOps - clicked on button successfully
 2018-05-21 19:48:48,349 [main] INFO utilities.CommonOps - element NEXT REPOSITION : 120  MINS verified successfully
 2018-05-21 19:48:51,434 [main] INFO utilities.CommonOps - test finished
+2018-05-22 16:46:51,038 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-05-22 16:47:07,397 [main] INFO utilities.CommonOps - cleared text field Medical Record Number
+2018-05-22 16:47:11,108 [main] INFO utilities.CommonOps - inserted text 1000003
+2018-05-22 16:47:11,118 [main] INFO utilities.CommonOps - MRN inserted
+2018-05-22 16:47:17,531 [main] INFO utilities.CommonOps - cleared text field Last Name
+2018-05-22 16:47:21,225 [main] INFO utilities.CommonOps - inserted text Test
+2018-05-22 16:47:21,225 [main] INFO utilities.CommonOps - Last name inserted
+2018-05-22 16:47:27,880 [main] INFO utilities.CommonOps - cleared text field First Name
+2018-05-22 16:47:31,452 [main] INFO utilities.CommonOps - inserted text Automation
+2018-05-22 16:47:31,454 [main] INFO utilities.CommonOps - First name inserted
+2018-05-22 16:47:38,271 [main] INFO utilities.CommonOps - cleared text field Weight
+2018-05-22 16:47:42,077 [main] INFO utilities.CommonOps - inserted text 100
+2018-05-22 16:47:42,083 [main] INFO utilities.CommonOps - Patient weight inserted
+2018-05-22 16:47:55,613 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 16:47:55,613 [main] INFO utilities.CommonOps - Details inserted and clicked button SUBMIT
+2018-05-22 16:48:00,273 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='NO']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=0123456789ABCDEF, platformName=Android, testName=Sanity}, device.serialNumber=0123456789ABCDEF, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=0123456789ABCDEF, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test0, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD, autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 7e21203a-a35b-42ea-86cb-756a3be77f57
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+2018-05-22 16:48:03,271 [main] INFO utilities.CommonOps - test finished
+2018-05-22 16:50:12,273 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-05-22 16:50:28,364 [main] INFO utilities.CommonOps - cleared text field Medical Record Number
+2018-05-22 16:50:31,992 [main] INFO utilities.CommonOps - inserted text 1000003
+2018-05-22 16:50:31,992 [main] INFO utilities.CommonOps - MRN inserted
+2018-05-22 16:50:38,445 [main] INFO utilities.CommonOps - cleared text field Last Name
+2018-05-22 16:50:42,176 [main] INFO utilities.CommonOps - inserted text Test
+2018-05-22 16:50:42,177 [main] INFO utilities.CommonOps - Last name inserted
+2018-05-22 16:50:49,014 [main] INFO utilities.CommonOps - cleared text field First Name
+2018-05-22 16:50:52,616 [main] INFO utilities.CommonOps - inserted text Automation
+2018-05-22 16:50:52,631 [main] INFO utilities.CommonOps - First name inserted
+2018-05-22 16:50:59,178 [main] INFO utilities.CommonOps - cleared text field Weight
+2018-05-22 16:51:02,819 [main] INFO utilities.CommonOps - inserted text 100
+2018-05-22 16:51:02,835 [main] INFO utilities.CommonOps - Patient weight inserted
+2018-05-22 16:51:16,475 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 16:51:16,475 [main] INFO utilities.CommonOps - Details inserted and clicked button SUBMIT
+2018-05-22 16:51:29,655 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 16:51:44,101 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 16:51:56,719 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 16:52:11,671 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 16:52:17,882 [main] INFO utilities.CommonOps - element NEXT REPOSITION : 120  MINS verified successfully
+2018-05-22 16:52:21,322 [main] INFO utilities.CommonOps - test finished
+2018-05-22 17:35:07,858 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-05-22 17:35:22,423 [main] ERROR utilities.CommonOps - Caught Exception: no such element (An element could not be located on the page using the given search parameters (ID='patientLogin_et_MedicalRecordNumber'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=0123456789ABCDEF, platformName=Android, testName=Sanity}, device.serialNumber=0123456789ABCDEF, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=0123456789ABCDEF, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test5, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD, autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: a04740c8-f013-4000-82b3-5e20ac695273
+*** Element info: {Using=id, value=patientLogin_et_MedicalRecordNumber}
+2018-05-22 17:35:25,556 [main] INFO utilities.CommonOps - test finished
+2018-05-22 17:36:10,218 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-05-22 17:36:26,754 [main] INFO utilities.CommonOps - cleared text field Medical Record Number
+2018-05-22 17:36:30,459 [main] INFO utilities.CommonOps - inserted text 1000003
+2018-05-22 17:36:30,459 [main] INFO utilities.CommonOps - MRN inserted
+2018-05-22 17:36:37,026 [main] INFO utilities.CommonOps - cleared text field Last Name
+2018-05-22 17:36:40,546 [main] INFO utilities.CommonOps - inserted text Test
+2018-05-22 17:36:40,546 [main] INFO utilities.CommonOps - Last name inserted
+2018-05-22 17:36:47,039 [main] INFO utilities.CommonOps - cleared text field First Name
+2018-05-22 17:36:50,662 [main] INFO utilities.CommonOps - inserted text Automation
+2018-05-22 17:36:50,676 [main] INFO utilities.CommonOps - First name inserted
+2018-05-22 17:36:57,209 [main] INFO utilities.CommonOps - cleared text field Weight
+2018-05-22 17:37:00,953 [main] INFO utilities.CommonOps - inserted text 100
+2018-05-22 17:37:00,953 [main] INFO utilities.CommonOps - Patient weight inserted
+2018-05-22 17:37:14,491 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 17:37:14,498 [main] INFO utilities.CommonOps - Details inserted and clicked button SUBMIT
+2018-05-22 17:37:28,057 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 17:37:42,561 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 17:37:55,362 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 17:38:10,031 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-22 17:38:16,780 [main] INFO utilities.CommonOps - element NEXT REPOSITION : 120  MINS verified successfully
+2018-05-22 17:38:20,623 [main] INFO utilities.CommonOps - test finished
+2018-05-29 23:03:15,496 [main] INFO utilities.CommonOps - ######################    onCreate.Recording    ######################
+2018-05-29 23:03:31,795 [main] INFO utilities.CommonOps - cleared text field Medical Record Number
+2018-05-29 23:03:35,230 [main] INFO utilities.CommonOps - inserted text 1000003
+2018-05-29 23:03:35,231 [main] INFO utilities.CommonOps - MRN inserted
+2018-05-29 23:03:41,291 [main] INFO utilities.CommonOps - cleared text field Last Name
+2018-05-29 23:03:44,619 [main] INFO utilities.CommonOps - inserted text Test
+2018-05-29 23:03:44,619 [main] INFO utilities.CommonOps - Last name inserted
+2018-05-29 23:03:50,721 [main] INFO utilities.CommonOps - cleared text field First Name
+2018-05-29 23:03:54,390 [main] INFO utilities.CommonOps - inserted text Automation
+2018-05-29 23:03:54,399 [main] INFO utilities.CommonOps - First name inserted
+2018-05-29 23:04:00,505 [main] INFO utilities.CommonOps - cleared text field Weight
+2018-05-29 23:04:03,719 [main] INFO utilities.CommonOps - inserted text 100
+2018-05-29 23:04:03,721 [main] INFO utilities.CommonOps - Patient weight inserted
+2018-05-29 23:04:16,785 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:04:16,786 [main] INFO utilities.CommonOps - Details inserted and clicked button SUBMIT
+2018-05-29 23:04:29,191 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:04:43,286 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:04:55,435 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:05:09,637 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:05:09,637 [main] INFO utilities.CommonOps - start enterToSettings
+2018-05-29 23:05:09,637 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-05-29 23:05:41,288 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:05:53,821 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:05:53,833 [main] INFO utilities.CommonOps - start loginToCSMode
+2018-05-29 23:05:59,885 [main] INFO utilities.CommonOps - cleared text field Username
+2018-05-29 23:06:03,362 [main] INFO utilities.CommonOps - inserted text administrator
+2018-05-29 23:06:03,362 [main] INFO utilities.CommonOps - after insert username
+2018-05-29 23:06:09,313 [main] INFO utilities.CommonOps - cleared text field Password
+2018-05-29 23:06:12,703 [main] INFO utilities.CommonOps - inserted text 2
+2018-05-29 23:06:12,703 [main] INFO utilities.CommonOps - after insert password
+2018-05-29 23:06:25,123 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:06:25,124 [main] INFO utilities.CommonOps - after pressing login
+2018-05-29 23:06:27,449 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='Advanced']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.32 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test7, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: b517756e-973b-4fab-adf8-2ba90b50bcd7
+*** Element info: {Using=xpath, value=//*[@text='Advanced']}
+2018-05-29 23:06:29,569 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='Advanced']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test7, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: b517756e-973b-4fab-adf8-2ba90b50bcd7
+*** Element info: {Using=xpath, value=//*[@text='Advanced']}
+2018-05-29 23:06:36,619 [main] INFO utilities.CommonOps - test finished
+2018-05-29 23:54:03,610 [main] INFO utilities.CommonOps - ######################    onCreate.Recording    ######################
+2018-05-29 23:54:13,665 [main] INFO utilities.CommonOps - fillNewPatientDetails
+2018-05-29 23:54:19,349 [main] INFO utilities.CommonOps - cleared text field Medical Record Number
+2018-05-29 23:54:22,719 [main] INFO utilities.CommonOps - inserted text 1000003
+2018-05-29 23:54:22,720 [main] INFO utilities.CommonOps - MRN inserted
+2018-05-29 23:54:29,403 [main] INFO utilities.CommonOps - cleared text field Last Name
+2018-05-29 23:54:32,846 [main] INFO utilities.CommonOps - inserted text Test
+2018-05-29 23:54:32,847 [main] INFO utilities.CommonOps - Last name inserted
+2018-05-29 23:54:39,502 [main] INFO utilities.CommonOps - cleared text field First Name
+2018-05-29 23:54:42,729 [main] INFO utilities.CommonOps - inserted text Automation
+2018-05-29 23:54:42,730 [main] INFO utilities.CommonOps - First name inserted
+2018-05-29 23:54:49,566 [main] INFO utilities.CommonOps - cleared text field Weight
+2018-05-29 23:54:53,260 [main] INFO utilities.CommonOps - inserted text 100
+2018-05-29 23:54:53,260 [main] INFO utilities.CommonOps - Patient weight inserted
+2018-05-29 23:54:53,261 [main] INFO utilities.CommonOps - finished insert patient details. continue to confirm
+2018-05-29 23:55:05,542 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:55:05,543 [main] INFO utilities.CommonOps - Details inserted and clicked button SUBMIT
+2018-05-29 23:55:18,471 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:55:31,914 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:55:43,315 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:55:57,598 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:55:57,607 [main] INFO utilities.CommonOps - start enterToPatientDetails
+2018-05-29 23:55:57,608 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-05-29 23:56:29,948 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:56:42,577 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-29 23:56:45,027 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_Settings'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.44 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test8, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: e595fc96-d2ac-401d-94f7-4f041919bc99
+*** Element info: {Using=id, value=drawerItem_img_Settings}
+2018-05-29 23:56:48,042 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_Settings'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test8, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: e595fc96-d2ac-401d-94f7-4f041919bc99
+*** Element info: {Using=id, value=drawerItem_img_Settings}
+2018-05-29 23:56:50,108 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_PatientDischarge'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test8, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: e595fc96-d2ac-401d-94f7-4f041919bc99
+*** Element info: {Using=id, value=drawerItem_img_PatientDischarge}
+2018-05-29 23:56:52,050 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_PatientDischarge'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.94 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test8, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: e595fc96-d2ac-401d-94f7-4f041919bc99
+*** Element info: {Using=id, value=drawerItem_img_PatientDischarge}
+2018-05-30 00:00:25,994 [main] INFO utilities.CommonOps - ######################    onCreate.Recording    ######################
+2018-05-30 00:00:36,059 [main] INFO utilities.CommonOps - fillNewPatientDetails
+2018-05-30 00:00:42,393 [main] INFO utilities.CommonOps - cleared text field Medical Record Number
+2018-05-30 00:00:45,717 [main] INFO utilities.CommonOps - inserted text 1000003
+2018-05-30 00:00:45,718 [main] INFO utilities.CommonOps - MRN inserted
+2018-05-30 00:00:52,527 [main] INFO utilities.CommonOps - cleared text field Last Name
+2018-05-30 00:00:55,994 [main] INFO utilities.CommonOps - inserted text Test
+2018-05-30 00:00:55,996 [main] INFO utilities.CommonOps - Last name inserted
+2018-05-30 00:01:02,464 [main] INFO utilities.CommonOps - cleared text field First Name
+2018-05-30 00:01:05,866 [main] INFO utilities.CommonOps - inserted text Automation
+2018-05-30 00:01:05,867 [main] INFO utilities.CommonOps - First name inserted
+2018-05-30 00:01:12,076 [main] INFO utilities.CommonOps - cleared text field Weight
+2018-05-30 00:01:15,591 [main] INFO utilities.CommonOps - inserted text 100
+2018-05-30 00:01:15,598 [main] INFO utilities.CommonOps - Patient weight inserted
+2018-05-30 00:01:15,598 [main] INFO utilities.CommonOps - finished insert patient details. continue to confirm
+2018-05-30 00:01:28,056 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:01:28,057 [main] INFO utilities.CommonOps - Details inserted and clicked button SUBMIT
+2018-05-30 00:01:41,383 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:01:55,491 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:02:07,893 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:02:21,494 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:02:21,494 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-05-30 00:02:34,107 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:02:46,409 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:02:46,419 [main] INFO utilities.CommonOps - clicked on Settings button
+2018-05-30 00:02:46,420 [main] INFO utilities.CommonOps - start loginToCSMode
+2018-05-30 00:02:52,713 [main] INFO utilities.CommonOps - cleared text field Username
+2018-05-30 00:02:56,058 [main] INFO utilities.CommonOps - inserted text administrator
+2018-05-30 00:02:56,061 [main] INFO utilities.CommonOps - after insert username
+2018-05-30 00:03:02,283 [main] INFO utilities.CommonOps - cleared text field Password
+2018-05-30 00:03:05,991 [main] INFO utilities.CommonOps - inserted text 2
+2018-05-30 00:03:05,992 [main] INFO utilities.CommonOps - after insert password
+2018-05-30 00:03:18,481 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:03:18,493 [main] INFO utilities.CommonOps - after pressing login
+2018-05-30 00:03:20,953 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='Advanced']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test9, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: e9524ccf-f7ca-4961-b2f0-1cbb6187872e
+*** Element info: {Using=xpath, value=//*[@text='Advanced']}
+2018-05-30 00:03:23,489 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='Advanced']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.53 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test9, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: e9524ccf-f7ca-4961-b2f0-1cbb6187872e
+*** Element info: {Using=xpath, value=//*[@text='Advanced']}
+2018-05-30 00:03:25,202 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_PatientDischarge'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.69 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test9, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: e9524ccf-f7ca-4961-b2f0-1cbb6187872e
+*** Element info: {Using=id, value=drawerItem_img_PatientDischarge}
+2018-05-30 00:03:27,128 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_PatientDischarge'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.92 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test9, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: e9524ccf-f7ca-4961-b2f0-1cbb6187872e
+*** Element info: {Using=id, value=drawerItem_img_PatientDischarge}
+2018-05-30 00:05:16,709 [main] INFO utilities.CommonOps - ######################    onCreate.Recording    ######################
+2018-05-30 00:05:26,754 [main] INFO utilities.CommonOps - fillNewPatientDetails
+2018-05-30 00:05:32,422 [main] INFO utilities.CommonOps - cleared text field Medical Record Number
+2018-05-30 00:05:35,812 [main] INFO utilities.CommonOps - inserted text 1000003
+2018-05-30 00:05:35,813 [main] INFO utilities.CommonOps - MRN inserted
+2018-05-30 00:05:42,421 [main] INFO utilities.CommonOps - cleared text field Last Name
+2018-05-30 00:05:45,855 [main] INFO utilities.CommonOps - inserted text Test
+2018-05-30 00:05:45,855 [main] INFO utilities.CommonOps - Last name inserted
+2018-05-30 00:05:52,479 [main] INFO utilities.CommonOps - cleared text field First Name
+2018-05-30 00:05:55,883 [main] INFO utilities.CommonOps - inserted text Automation
+2018-05-30 00:05:55,884 [main] INFO utilities.CommonOps - First name inserted
+2018-05-30 00:06:02,443 [main] INFO utilities.CommonOps - cleared text field Weight
+2018-05-30 00:06:05,887 [main] INFO utilities.CommonOps - inserted text 100
+2018-05-30 00:06:05,887 [main] INFO utilities.CommonOps - Patient weight inserted
+2018-05-30 00:06:05,892 [main] INFO utilities.CommonOps - finished insert patient details. continue to confirm
+2018-05-30 00:06:19,195 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:06:19,196 [main] INFO utilities.CommonOps - Details inserted and clicked button SUBMIT
+2018-05-30 00:06:31,588 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:06:45,536 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:06:57,420 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:07:12,036 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:07:12,036 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-05-30 00:07:23,989 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:07:36,285 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:07:36,298 [main] INFO utilities.CommonOps - clicked on Settings button
+2018-05-30 00:07:36,298 [main] INFO utilities.CommonOps - start loginToCSMode
+2018-05-30 00:07:43,003 [main] INFO utilities.CommonOps - cleared text field Username
+2018-05-30 00:07:46,486 [main] INFO utilities.CommonOps - inserted text admin
+2018-05-30 00:07:46,492 [main] INFO utilities.CommonOps - after insert username
+2018-05-30 00:07:52,234 [main] INFO utilities.CommonOps - cleared text field Password
+2018-05-30 00:07:55,751 [main] INFO utilities.CommonOps - inserted text 2
+2018-05-30 00:07:55,757 [main] INFO utilities.CommonOps - after insert password
+2018-05-30 00:08:07,985 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:08:08,000 [main] INFO utilities.CommonOps - after pressing login
+2018-05-30 00:08:19,759 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:08:19,761 [main] INFO utilities.CommonOps - pressed Advanced button
+2018-05-30 00:08:32,090 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:08:32,091 [main] INFO utilities.CommonOps - pressed Recording Options button
+2018-05-30 00:08:44,467 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:08:56,825 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:08:59,453 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='38:a2:8c:c9:71:2d']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.60 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test10, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 0baf1558-fd4a-4e99-9284-75de1131fa94
+*** Element info: {Using=xpath, value=//*[@text='38:a2:8c:c9:71:2d']}
+2018-05-30 00:09:01,317 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='38:a2:8c:c9:71:2d']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.86 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test10, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 0baf1558-fd4a-4e99-9284-75de1131fa94
+*** Element info: {Using=xpath, value=//*[@text='38:a2:8c:c9:71:2d']}
+2018-05-30 00:09:03,450 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_PatientDischarge'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test10, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 0baf1558-fd4a-4e99-9284-75de1131fa94
+*** Element info: {Using=id, value=drawerItem_img_PatientDischarge}
+2018-05-30 00:09:05,382 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_PatientDischarge'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.91 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test10, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 0baf1558-fd4a-4e99-9284-75de1131fa94
+*** Element info: {Using=id, value=drawerItem_img_PatientDischarge}
+2018-05-30 00:15:17,564 [main] INFO utilities.CommonOps - ######################    onCreate.Recording    ######################
+2018-05-30 00:15:27,609 [main] INFO utilities.CommonOps - fillNewPatientDetails
+2018-05-30 00:15:33,394 [main] INFO utilities.CommonOps - cleared text field Medical Record Number
+2018-05-30 00:15:36,935 [main] INFO utilities.CommonOps - inserted text 1000003
+2018-05-30 00:15:36,936 [main] INFO utilities.CommonOps - MRN inserted
+2018-05-30 00:15:43,034 [main] INFO utilities.CommonOps - cleared text field Last Name
+2018-05-30 00:15:46,645 [main] INFO utilities.CommonOps - inserted text Test
+2018-05-30 00:15:46,646 [main] INFO utilities.CommonOps - Last name inserted
+2018-05-30 00:15:52,504 [main] INFO utilities.CommonOps - cleared text field First Name
+2018-05-30 00:15:56,023 [main] INFO utilities.CommonOps - inserted text Automation
+2018-05-30 00:15:56,024 [main] INFO utilities.CommonOps - First name inserted
+2018-05-30 00:16:02,725 [main] INFO utilities.CommonOps - cleared text field Weight
+2018-05-30 00:16:06,159 [main] INFO utilities.CommonOps - inserted text 100
+2018-05-30 00:16:06,161 [main] INFO utilities.CommonOps - Patient weight inserted
+2018-05-30 00:16:06,161 [main] INFO utilities.CommonOps - finished insert patient details. continue to confirm
+2018-05-30 00:16:18,586 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:16:18,586 [main] INFO utilities.CommonOps - Details inserted and clicked button SUBMIT
+2018-05-30 00:16:31,860 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:16:46,042 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:16:58,359 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:17:12,527 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:17:12,527 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-05-30 00:17:24,991 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:17:37,662 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:17:37,662 [main] INFO utilities.CommonOps - clicked on Settings button
+2018-05-30 00:17:37,673 [main] INFO utilities.CommonOps - start loginToCSMode
+2018-05-30 00:17:44,224 [main] INFO utilities.CommonOps - cleared text field Username
+2018-05-30 00:17:47,925 [main] INFO utilities.CommonOps - inserted text admin
+2018-05-30 00:17:47,925 [main] INFO utilities.CommonOps - after insert username
+2018-05-30 00:17:54,192 [main] INFO utilities.CommonOps - cleared text field Password
+2018-05-30 00:17:57,828 [main] INFO utilities.CommonOps - inserted text 2
+2018-05-30 00:17:57,836 [main] INFO utilities.CommonOps - after insert password
+2018-05-30 00:18:10,494 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:18:10,499 [main] INFO utilities.CommonOps - after pressing login
+2018-05-30 00:18:23,059 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:18:23,064 [main] INFO utilities.CommonOps - pressed Advanced button
+2018-05-30 00:18:35,041 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:18:35,047 [main] INFO utilities.CommonOps - pressed Recording Options button
+2018-05-30 00:18:46,740 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:18:58,707 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:19:10,683 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:20:08,405 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:20:11,527 [main] INFO utilities.CommonOps - playback already running. Pressing twice on start/stop button
+2018-05-30 00:20:24,114 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:20:36,305 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 00:20:38,438 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_PatientDischarge'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test11, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: c8645254-b420-4961-8d76-99650313b46e
+*** Element info: {Using=id, value=drawerItem_img_PatientDischarge}
+2018-05-30 00:20:40,463 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (ID='drawerItem_img_PatientDischarge'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test11, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: c8645254-b420-4961-8d76-99650313b46e
+*** Element info: {Using=id, value=drawerItem_img_PatientDischarge}
+2018-05-30 13:37:43,964 [main] INFO utilities.CommonOps - ######################    onCreate.Recording    ######################
+2018-05-30 13:37:54,029 [main] INFO utilities.CommonOps - fillNewPatientDetails
+2018-05-30 13:37:59,862 [main] INFO utilities.CommonOps - cleared text field Medical Record Number
+2018-05-30 13:38:03,166 [main] INFO utilities.CommonOps - inserted text 1000003
+2018-05-30 13:38:03,167 [main] INFO utilities.CommonOps - MRN inserted
+2018-05-30 13:38:09,899 [main] INFO utilities.CommonOps - cleared text field Last Name
+2018-05-30 13:38:13,253 [main] INFO utilities.CommonOps - inserted text Test
+2018-05-30 13:38:13,257 [main] INFO utilities.CommonOps - Last name inserted
+2018-05-30 13:38:19,798 [main] INFO utilities.CommonOps - cleared text field First Name
+2018-05-30 13:38:23,252 [main] INFO utilities.CommonOps - inserted text Automation
+2018-05-30 13:38:23,253 [main] INFO utilities.CommonOps - First name inserted
+2018-05-30 13:38:29,907 [main] INFO utilities.CommonOps - cleared text field Weight
+2018-05-30 13:38:33,257 [main] INFO utilities.CommonOps - inserted text 100
+2018-05-30 13:38:33,258 [main] INFO utilities.CommonOps - Patient weight inserted
+2018-05-30 13:38:33,258 [main] INFO utilities.CommonOps - finished insert patient details. continue to confirm
+2018-05-30 13:38:46,339 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:38:46,340 [main] INFO utilities.CommonOps - Details inserted and clicked button SUBMIT
+2018-05-30 13:38:48,825 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='NO']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.100.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test12, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 31c092e0-9581-41d2-b590-54241c3a6daf
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+2018-05-30 13:38:51,351 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:39:05,366 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:39:17,808 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:39:31,931 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:39:31,932 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-05-30 13:39:44,439 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:39:56,954 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:39:56,954 [main] INFO utilities.CommonOps - clicked on Settings button
+2018-05-30 13:39:56,955 [main] INFO utilities.CommonOps - start loginToCSMode
+2018-05-30 13:40:02,888 [main] INFO utilities.CommonOps - cleared text field Username
+2018-05-30 13:40:06,369 [main] INFO utilities.CommonOps - inserted text admin
+2018-05-30 13:40:06,369 [main] INFO utilities.CommonOps - after insert username
+2018-05-30 13:40:12,516 [main] INFO utilities.CommonOps - cleared text field Password
+2018-05-30 13:40:16,051 [main] INFO utilities.CommonOps - inserted text 2
+2018-05-30 13:40:16,052 [main] INFO utilities.CommonOps - after insert password
+2018-05-30 13:40:27,905 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:40:27,907 [main] INFO utilities.CommonOps - after pressing login
+2018-05-30 13:40:40,135 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:40:40,135 [main] INFO utilities.CommonOps - pressed Advanced button
+2018-05-30 13:40:51,935 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:40:51,935 [main] INFO utilities.CommonOps - pressed Recording Options button
+2018-05-30 13:41:03,918 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:41:15,640 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:41:27,491 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:41:38,543 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.TimeoutException: Timed out after 3 seconds waiting for element to be clickable: [[AndroidDriver:  on ANY (31c092e0-9581-41d2-b590-54241c3a6daf)] -> xpath: //*[@class='android.widget.TableLayout' and ./*[./*[@text='02:13']]]]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.100.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test12, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 31c092e0-9581-41d2-b590-54241c3a6daf
+2018-05-30 13:41:41,469 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:41:44,621 [main] INFO utilities.CommonOps - StartStop playing button state is: Start Playing
+2018-05-30 13:41:47,579 [main] INFO utilities.CommonOps - playback already running. Pressing twice on start/stop button
+2018-05-30 13:41:59,551 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:42:01,646 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (ID='recording_tv_StartStopPlayButton'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.100.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test12, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 31c092e0-9581-41d2-b590-54241c3a6daf
+*** Element info: {Using=id, value=recording_tv_StartStopPlayButton}
+2018-05-30 13:42:04,473 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (ID='recording_tv_StartStopPlayButton'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.83 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.100.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test12, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 31c092e0-9581-41d2-b590-54241c3a6daf
+*** Element info: {Using=id, value=recording_tv_StartStopPlayButton}
+2018-05-30 13:42:12,600 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.TimeoutException: Timed out after 3 seconds waiting for element to be clickable: [[AndroidDriver:  on ANY (31c092e0-9581-41d2-b590-54241c3a6daf)] -> id: drawerItem_img_PatientDischarge]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.100.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test12, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 31c092e0-9581-41d2-b590-54241c3a6daf
+2018-05-30 13:42:16,132 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-05-30 13:42:16,133 [main] INFO utilities.CommonOps - clicked on Discharge Patient button
+2018-05-30 13:42:18,662 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (ID='confirmDischarge_tv_yes'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.53 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.100.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test12, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 31c092e0-9581-41d2-b590-54241c3a6daf
+*** Element info: {Using=id, value=confirmDischarge_tv_yes}
+2018-05-30 13:42:20,471 [main] ERROR utilities.CommonOps - failed to click on button with exception: no such element (An element could not be located on the page using the given search parameters (ID='confirmDischarge_tv_yes'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.81 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.100.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100630, platformName=Android, testName=Sanity}, device.serialNumber=CB170100630, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100630, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test12, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 31c092e0-9581-41d2-b590-54241c3a6daf
+*** Element info: {Using=id, value=confirmDischarge_tv_yes}
+2018-05-30 14:03:42,912 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-05-30 14:03:42,959 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-05-30 14:03:42,960 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-05-30 14:04:12,132 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-05-30 14:04:12,133 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-05-30 14:04:16,121 [main] INFO utilities.CommonOps - test finished

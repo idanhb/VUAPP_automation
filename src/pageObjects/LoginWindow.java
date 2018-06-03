@@ -45,21 +45,18 @@ public class LoginWindow extends Base
 	@FindBy (how=How.XPATH , using="//*[@text='YES']")
 	public WebElement PIPopupYes;
 	
-	public void fillPatientDetails()
+	public void changePatientDetails()
 	{
 		try
 		{
-			System.out.println("fillPatientDetails");
-			//comOpsLW.clickButton(editPatienInformationButton);
-			//Thread.sleep(20000);
+			Thread.sleep(10000);
+			logger.info("changePatientDetails");
 			comOpsLW.sendText(MRNNumber, CommonOps.getData("MRNNumber"));
-			
 			logger.info("LOG-MRN inserted");
-			
 			comOpsLW.sendText(lastNameField, CommonOps.getData("LastName"));
 			comOpsLW.sendText(firstNameField, CommonOps.getData("FirstName"));
 			comOpsLW.sendText(weightField, CommonOps.getData("Weight"));
-			System.out.println("finished insert details. continue to confirm");
+			logger.info("finished insert details. continue to confirm");
 			Thread.sleep(1000);
 			comOpsLW.clickButton(confirmPatientDetailsButton);
 			comOpsLW.clickButton(PIPopupNo);
@@ -76,7 +73,7 @@ public class LoginWindow extends Base
 		try
 		{
 			Thread.sleep(10000);
-			System.out.println("fillNewPatientDetails");
+			logger.info("fillNewPatientDetails");
 			comOpsLW.sendText(MRNNumber, CommonOps.getData("MRNNumber"));
 			logger.info("MRN inserted");
 			comOpsLW.sendText(lastNameField, CommonOps.getData("LastName"));
@@ -85,7 +82,7 @@ public class LoginWindow extends Base
 			logger.info("First name inserted");
 			comOpsLW.sendText(weightField, CommonOps.getData("Weight"));
 			logger.info("Patient weight inserted");
-			System.out.println("finished insert details. continue to confirm");
+			logger.info("finished insert patient details. continue to confirm");
 			Thread.sleep(1000);
 			comOpsLW.clickButton(submitPatientDetailsButton);
 			logger.info("Details inserted and clicked button SUBMIT");

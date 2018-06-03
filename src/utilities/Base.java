@@ -29,10 +29,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.sikuli.script.Screen;
+//import org.sikuli.script.Screen;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
@@ -49,10 +50,10 @@ public class Base
 	//public static ExtentTest test;
 	//public WebDriverWait wait;
 		
-	Screen screen = new Screen();
+	//Screen screen = new Screen();
 	public static String timeStamp = new SimpleDateFormat ("yyyy-MM-dd_HH-mm-ss").format(Calendar.getInstance().getTime());
-	protected Settings settings = Settings.getInstance();
-
+	protected static CommonVars settings = CommonVars.getInstance();
+	TouchAction action = new TouchAction(settings.getDriver());
 	
 	public String takeSS() throws IOException, ParserConfigurationException, SAXException
 	{
@@ -63,7 +64,7 @@ public class Base
 		return ScreenShotPath;
 	}
 	
-	public void tearDown() 
+	public static void tearDown() 
 	{
 	    //for After
 		settings.getDriver().quit();
@@ -76,9 +77,9 @@ public class Base
 			try
 			{
 				System.out.println("verify image");
-				screen.wait(1);
+				//screen.wait(1);
 				System.out.println("after sleep.wait");
-				screen.find(CommonOps.getData(image));
+				//screen.find(CommonOps.getData(image));
 				System.out.println("image verified");
 			}
 			catch (AssertionError ae)
@@ -113,13 +114,31 @@ public class Base
 			}
 		}
 		
+		public void pressButton(WebElement element)
+		{
+			try
+			{
+				System.out.println("inside press button");
+				explicitWait(element);
+				settings.getDriver().performTouchAction(action.press(element));
+				//settings.getDriver().wait(2000).tap();
+				settings.getDriver().tap(1, element, 500);
+				logger.info("pressed on button successfully");
+				System.out.println("finished click button");
+			}
+			catch (Exception e)
+			{
+				logger.error("failed to press on button with exception: "+e.getMessage());
+				fail(e.getMessage());
+			}
+		}
+		
 		public void clickButton (WebElement element)
 		{
 			try
 			{
 				System.out.println("inside click button");
 				explicitWait(element);
-				//Thread.sleep(2000);
 				element.click();
 				logger.info("clicked on button successfully");
 				System.out.println("finished click button");
@@ -128,7 +147,6 @@ public class Base
 			{
 				logger.error("failed to click on button with exception: "+e.getMessage());
 				fail(e.getMessage());
-				//System.out.println(e.getCause());
 			}
 		}
 		
@@ -154,7 +172,6 @@ public class Base
 		
 		public void explicitWait(WebElement elem)
 		{
-			//*********need to solve the null pointer exception here*********
 			try
 			{
 				System.out.println(elem.getText());
@@ -162,7 +179,7 @@ public class Base
 			}
 			catch (Exception e)
 			{
-				System.out.println("explicit failed "+e);
+				logger.error("explicit failed "+e);
 			}
 		}
 

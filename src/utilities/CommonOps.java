@@ -23,7 +23,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.sikuli.script.Match;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
