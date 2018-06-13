@@ -22,7 +22,6 @@ import static utilities.CommonOps.logger;
 
 public class Live_Image extends Base
 {
-	//static Logger LOGGER=Logger.getLogger(Live_Image.class.getName());
 	utilities.CommonOps comOpsLI = new utilities.CommonOps();
 	LoginWindow LW = new LoginWindow();
 	RIScreen RIS = new RIScreen();
@@ -46,8 +45,8 @@ public class Live_Image extends Base
 			logger.info("start enterToSideMenu");
 			logger.info("Thread Sleep of 20 sec");
 			Thread.sleep(20000);
-			pressButton(sideMenuButton);
-			//comOpsLI.clickButton(sideMenuButton);
+			//pressButton(sideMenuButton);
+			comOpsLI.clickButton(sideMenuButton);
 			System.out.println("after click side menu");			
 			
 			

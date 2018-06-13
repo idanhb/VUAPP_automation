@@ -1392,3 +1392,90 @@ Session ID: 31c092e0-9581-41d2-b590-54241c3a6daf
 2018-05-30 14:04:12,132 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
 2018-05-30 14:04:12,133 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
 2018-05-30 14:04:16,121 [main] INFO utilities.CommonOps - test finished
+2018-06-12 16:24:25,459 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-12 16:24:25,490 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-12 16:24:25,490 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-12 16:24:55,213 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:24:55,213 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:25:00,242 [main] INFO utilities.CommonOps - test finished
+2018-06-12 16:33:39,120 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-12 16:33:39,151 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-12 16:33:39,151 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-12 16:34:08,876 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:34:08,876 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:34:12,645 [main] INFO utilities.CommonOps - test finished
+2018-06-12 16:34:50,087 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-12 16:36:50,643 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-12 16:37:23,380 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-12 16:39:48,227 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.remote.SessionNotFoundException: invalid session id (A session is either terminated or not started (7711802a-f94f-4169-820b-742a3a53eb75), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.100.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=CB170100628, platformName=Android, testName=Sanity}, device.serialNumber=CB170100628, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=CB170100628, platformName=Android, testName=Sanity, device.screenSize=1200x1920, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test16, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD, autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 7711802a-f94f-4169-820b-742a3a53eb75
+*** Element info: {Using=id, value=liveImage_img_MenuButton}
+2018-06-12 16:39:50,282 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:39:51,582 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:46:45,307 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-12 16:46:45,349 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-12 16:46:45,350 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-12 16:47:14,595 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:47:14,595 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:47:19,327 [main] INFO utilities.CommonOps - test finished
+2018-06-12 16:49:27,885 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-12 16:49:27,917 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-12 16:49:27,917 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-12 16:49:57,337 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:49:57,337 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-12 16:50:01,651 [main] INFO utilities.CommonOps - test finished
+2018-06-13 09:45:54,800 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-13 09:45:54,831 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-13 09:45:54,831 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-13 09:46:17,523 [main] ERROR utilities.CommonOps - explicit failed org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (ID='liveImage_img_MenuButton'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.66 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'WINDOWS-HSHLLN8', ip: '192.168.100.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.Wellsense_tech.VUApplication, device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={appPackage=com.Wellsense_tech.VUApplication, appActivity=.activity.MainActivity, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, reportFormat=xml, udid=0123456789ABCDEF, platformName=Android, testName=Sanity}, device.serialNumber=0123456789ABCDEF, locationServicesAuthorized=false, device.version=5.1, reportDirectory=C:\\Projects\\VUAP\\VUReports\\, autoWebview=false, udid=0123456789ABCDEF, platformName=Android, testName=Sanity, device.screenSize=1920x1200, useKeystore=false, device.manufacture=CUBE, instrumentApp=false, device.category=TABLET, autoDismissAlerts=false, reportUrl=C:\Projects\VUAP\VUReports\test19, keystorePath=~/.android/debug.keystore, appActivity=.activity.MainActivity, waitForDeviceTimeout=120000, device.model=I15-TD, device.name=I15-TD(1), autoGrantPermissions=false, projectName=, autoAcceptAlerts=false}]
+Session ID: 73219d93-656e-4e9f-9926-c68345098356
+*** Element info: {Using=id, value=liveImage_img_MenuButton}
+2018-06-13 09:46:17,523 [main] INFO utilities.CommonOps - Assert failed: null
+2018-06-13 09:46:21,674 [main] INFO utilities.CommonOps - test finished
+2018-06-13 09:47:07,913 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-13 09:47:07,944 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-13 09:47:07,944 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-13 09:47:36,047 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 09:47:36,047 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 09:47:40,585 [main] INFO utilities.CommonOps - test finished
+2018-06-13 09:55:29,325 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-13 09:55:29,356 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-13 09:55:29,356 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-13 09:55:58,561 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 09:55:58,561 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 09:56:02,970 [main] INFO utilities.CommonOps - test finished
+2018-06-13 09:59:14,225 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-13 09:59:14,247 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-13 09:59:14,247 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-13 09:59:43,191 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 09:59:43,196 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 09:59:47,250 [main] INFO utilities.CommonOps - test finished
+2018-06-13 10:07:55,860 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-13 10:07:55,890 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-13 10:07:55,890 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-13 10:08:24,399 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 10:08:24,399 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 10:08:27,731 [main] INFO utilities.CommonOps - test finished
+2018-06-13 10:44:46,664 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-13 10:44:46,695 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-13 10:44:46,695 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-13 10:45:15,859 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 10:45:15,868 [main] INFO utilities.CommonOps - Assert failed: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 10:45:19,656 [main] INFO utilities.CommonOps - test finished
+2018-06-13 10:48:05,082 [main] INFO utilities.CommonOps - ######################    onCreate    ######################
+2018-06-13 10:48:05,107 [main] INFO utilities.CommonOps - start enterToSideMenu
+2018-06-13 10:48:05,107 [main] INFO utilities.CommonOps - Thread Sleep of 20 sec
+2018-06-13 10:48:36,894 [main] INFO utilities.CommonOps - clicked on button successfully
+2018-06-13 10:48:46,363 [main] ERROR utilities.CommonOps - failed to press on button with exception: com.sun.proxy.$Proxy7 cannot be cast to org.openqa.selenium.internal.HasIdentity
+2018-06-13 10:48:50,316 [main] INFO utilities.CommonOps - test finished

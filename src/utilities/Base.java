@@ -54,7 +54,9 @@ public class Base
 	public static String timeStamp = new SimpleDateFormat ("yyyy-MM-dd_HH-mm-ss").format(Calendar.getInstance().getTime());
 	protected static CommonVars settings = CommonVars.getInstance();
 	TouchAction action = new TouchAction(settings.getDriver());
-	
+    static pageObjects.SideMenu SM;
+    static pageObjects.Live_Image LI;
+
 	public String takeSS() throws IOException, ParserConfigurationException, SAXException
 	{
 		String ScreenShotPath = CommonOps.getData("ScreenShot")+CommonOps.getRandomNumber()+".png";
@@ -67,6 +69,8 @@ public class Base
 	public static void tearDown() 
 	{
 	    //for After
+        LI.enterToSideMenu();
+        SM.DischargingPatient();
 		settings.getDriver().quit();
 		logger.info("test finished");
 	}
@@ -180,6 +184,7 @@ public class Base
 			catch (Exception e)
 			{
 				logger.error("explicit failed "+e);
+				fail();
 			}
 		}
 
