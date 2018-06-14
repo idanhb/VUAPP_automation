@@ -49,17 +49,21 @@ public class LoginWindow extends Base
 	{
 		try
 		{
-			Thread.sleep(10000);
+			Thread.sleep(5000);
 			logger.info("changePatientDetails");
-			comOpsLW.sendText(MRNNumber, CommonOps.getData("MRNNumber"));
-			logger.info("LOG-MRN inserted");
-			comOpsLW.sendText(lastNameField, CommonOps.getData("LastName"));
-			comOpsLW.sendText(firstNameField, CommonOps.getData("FirstName"));
-			comOpsLW.sendText(weightField, CommonOps.getData("Weight"));
+			MRNNumber.clear();
+			sendText(MRNNumber, CommonOps.getData("MRNNumber2"));
+			logger.info("MRN#2 inserted");
+			lastNameField.clear();
+			sendText(lastNameField, CommonOps.getData("LastName"));
+			firstNameField.clear();
+			sendText(firstNameField, CommonOps.getData("FirstName"));
+			weightField.clear();
+			sendText(weightField, CommonOps.getData("Weight"));
 			logger.info("finished insert details. continue to confirm");
+			clickButton(confirmPatientDetailsButton);
 			Thread.sleep(1000);
-			comOpsLW.clickButton(confirmPatientDetailsButton);
-			comOpsLW.clickButton(PIPopupNo);
+			clickButton(PIPopupNo);
 		}
 		catch (Exception e)
 		{
@@ -74,19 +78,19 @@ public class LoginWindow extends Base
 		{
 			Thread.sleep(10000);
 			logger.info("fillNewPatientDetails");
-			comOpsLW.sendText(MRNNumber, CommonOps.getData("MRNNumber"));
-			logger.info("MRN inserted");
-			comOpsLW.sendText(lastNameField, CommonOps.getData("LastName"));
+			sendText(MRNNumber, CommonOps.getData("MRNNumber1"));
+			logger.info("MRN#1 inserted");
+			sendText(lastNameField, CommonOps.getData("LastName"));
 			logger.info("Last name inserted");
-			comOpsLW.sendText(firstNameField, CommonOps.getData("FirstName"));
+			sendText(firstNameField, CommonOps.getData("FirstName"));
 			logger.info("First name inserted");
-			comOpsLW.sendText(weightField, CommonOps.getData("Weight"));
+			sendText(weightField, CommonOps.getData("Weight"));
 			logger.info("Patient weight inserted");
 			logger.info("finished insert patient details. continue to confirm");
 			Thread.sleep(1000);
-			comOpsLW.clickButton(submitPatientDetailsButton);
+			clickButton(submitPatientDetailsButton);
 			logger.info("Details inserted and clicked button SUBMIT");
-			comOpsLW.clickButton(PIPopupNo);
+			clickButton(PIPopupNo);
 		}
 		catch (Exception e)
 		{

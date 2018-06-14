@@ -65,16 +65,7 @@ public class Base
 		logger.info("ScreenShots taken and saved here " + ScreenShotPath);
 		return ScreenShotPath;
 	}
-	
-	public static void tearDown() 
-	{
-	    //for After
-        LI.enterToSideMenu();
-        SM.DischargingPatient();
-		settings.getDriver().quit();
-		logger.info("test finished");
-	}
-	
+
 	// need to complete
 		public void verifyImageExists(String image)
 		{
@@ -100,8 +91,9 @@ public class Base
 		{
 			try
 			{
-				System.out.println("inside verify text");
-				assertEquals(expectedValue, element.getText());
+                logger.info("inside verify text");
+				Thread.sleep(2000);
+                assertEquals(expectedValue, element.getText());
 				logger.info("element "+ element.getText()+ " verified successfully");
 			}
 			catch (AssertionError ae)
@@ -162,8 +154,8 @@ public class Base
 				//wait.until(ExpectedConditions.elementToBeClickable(element)).sendKeys(text);
 				//explicitWait(element);
 				//Thread.sleep(1000);
-				element.clear();
-				logger.info("cleared text field "+element.getText());
+				//element.clear();
+				//logger.info("cleared text field "+element.getText());
 				element.sendKeys(text);
 				logger.info("inserted text "+text);
 			}
@@ -179,7 +171,7 @@ public class Base
 			try
 			{
 				System.out.println(elem.getText());
-				(new WebDriverWait(settings.getDriver(), 3)).until(ExpectedConditions.elementToBeClickable(elem));
+				(new WebDriverWait(settings.getDriver(), 4)).until(ExpectedConditions.elementToBeClickable(elem));
 			}
 			catch (Exception e)
 			{

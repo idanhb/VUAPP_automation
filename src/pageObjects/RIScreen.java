@@ -29,16 +29,25 @@ public class RIScreen extends Base
 	
 	@FindBy (how=How.XPATH , using="//*[@text='2.0 HOURS']")
 	public WebElement interval_2_Hours;
+
+	@FindBy (how=How.XPATH , using="//*[@text='1.0 HOUR']")
+	public WebElement interval_1_Hour;
 	
-	public void chooseInterval()
+	public void chooseInterval(String intervalTime)
 	{
 		try
 		{
 			Thread.sleep(2000);
-			comOpsRIS.clickButton(confirmRepositionEditButton);
-			comOpsRIS.clickButton(interval_2_Hours);
+			clickButton(confirmRepositionEditButton);
+			if (intervalTime == "1") {
+				clickButton(interval_1_Hour);
+			}
+			if (intervalTime == "2")
+			{
+				clickButton(interval_2_Hours);
+			}
 			Thread.sleep(2000);
-			comOpsRIS.clickButton(confirmRepositionConfirmButton);
+			clickButton(confirmRepositionConfirmButton);
 		}
 		catch (Exception e)
 		{

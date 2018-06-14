@@ -46,11 +46,9 @@ public class Live_Image extends Base
 			logger.info("Thread Sleep of 20 sec");
 			Thread.sleep(20000);
 			//pressButton(sideMenuButton);
-			comOpsLI.clickButton(sideMenuButton);
-			System.out.println("after click side menu");			
-			
-			
-			
+			clickButton(sideMenuButton);
+			logger.info("after click side menu");
+
 			//comOpsLI.clickButton(patientInformationButton);
 			//System.out.println("after click patient information");
 			//comOpsLI.clickButton(LW.editPatienInformationButton);
@@ -59,7 +57,6 @@ public class Live_Image extends Base
 		catch (AssertionError ae)
 		{
 			logger.info("Assert failed: "+ae.getMessage());
-			System.out.println(ae);
 			fail(ae.getMessage());
 		}
 		catch (Exception e)
